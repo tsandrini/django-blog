@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils.translation import ugettext as _
-from web.entities.menu_entry import MenuEntry
+from tsandrini.blog.entities.menu_entry import MenuEntry
+
 
 class Page(models.Model):
     menu_entry = models.ForeignKey(

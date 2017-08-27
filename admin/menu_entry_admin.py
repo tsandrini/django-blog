@@ -6,6 +6,7 @@ from modeltranslation.admin import TranslationAdmin
 from core.admin.actions import enable, disable
 from django_ace import AceWidget as Ace
 
+
 @admin.register(MenuEntry)
 class MenuEntryAdmin(TranslationAdmin):
     fields = (
