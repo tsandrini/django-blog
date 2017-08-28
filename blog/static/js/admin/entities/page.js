@@ -1,0 +1,1 @@
+(function(){!function(n){n(document).on("ready",function(){var e;return e=n("#id_dynamic_content"),e.fn={},e.on("change",function(n){return e.fn.change(n)}),e.fn.change=function(t){var c;return c=n("[id^=id_content_]").parent().parent().parent(),e.is(":checked")?c.fadeIn(300):c.fadeOut(300)},function(){return e.fn.change()}})}(django.jQuery)}).call(this);
