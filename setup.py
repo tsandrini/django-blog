@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 from distutils.core import setup
 
-# Dynamically calculate the version based on modeltranslation.VERSION.
 version = __import__('blog').get_version()
 
 
