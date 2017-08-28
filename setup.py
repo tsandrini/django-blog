@@ -14,9 +14,6 @@ setup(
     maintainer='Tomáš Sandrini',
     maintainer_email='tomas.sandrini@seznam.cz',
     url='https://github.com/tsandrini/django-blog',
-    packages=['blog'],
-    package_data={'blog': ['static/blog/css/**/*.css',
-                            'static/blog/js/**/*.js']},
     requires=['Django(>=1.8)'],
     download_url='https://github.com/tsandrini/django-blog/archive/%s.tar.gz' % version,
     classifiers=[
